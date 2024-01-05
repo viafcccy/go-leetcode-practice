@@ -1,3 +1,9 @@
+*
+# 不忽略点文件，如 .gitignore 自身
+!.* 
+# 不忽略有后缀名的文件
+!*.* 
+
 # If you prefer the allow list template instead of the deny list, see community template:
 # https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
 #
